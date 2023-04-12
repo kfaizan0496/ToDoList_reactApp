@@ -20,4 +20,4 @@ const ToDoList = ({setTodos,todos,filteredTodos}) => {
     );
 };
 
-export default TodDoList;
+export default ToDoList;
