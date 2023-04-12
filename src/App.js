@@ -14,11 +14,11 @@ function App() {
   },[])
   
   useEffect(() =>{
-    filterHandlers()
+    filtersHandlers()
     saveLocalTodos()
   },[todos,status])
 
-  const filterHandlers = () =>{
+  const filtersHandlers = () =>{
     switch(status){
       case 'completed':
         setFilteredTodos(todos.filter((todo) => todo.completed === true))
