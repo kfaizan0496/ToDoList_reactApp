@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Todo = ({setTodos,todo,todos,text}) => {
+const ToDo = ({setTodos,todo,todos,text}) => {
     const deleteHandler= () =>{
         setTodos(todos.filter((el) => el.id!==todo.id))
     }
@@ -26,4 +26,4 @@ const Todo = ({setTodos,todo,todos,text}) => {
     );
 };
 
-export default Todo;
+export default ToDo;
